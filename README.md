@@ -33,7 +33,7 @@ https://colab.research.google.com/github/kavya-18/Take_home_rag-project/blob/mai
 
 ```
 
-#### Click:
+##### Click:
 
 1. Run anyway
 
@@ -41,7 +41,7 @@ https://colab.research.google.com/github/kavya-18/Take_home_rag-project/blob/mai
 
 3. Runtime → Run all
 
-#### Note:
+##### Note:
 Because this project uses a local LLaMA model, the final LLM generation step will not run in Colab.
 
 ##### You can still:
@@ -62,7 +62,7 @@ Open terminal inside the project folder.
 python -m venv venv
 ```
 
-# Activate:
+### Activate:
 
 Windows:
 ```bash
@@ -91,5 +91,6 @@ rag_note_book.ipynb
 ```
 
 Click Run All.
+
 
 
