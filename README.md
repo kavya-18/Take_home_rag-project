@@ -62,7 +62,7 @@ Open terminal inside the project folder.
 python -m venv venv
 ```
 
-### Activate:
+#### Activate:
 
 Windows:
 ```bash
@@ -91,6 +91,7 @@ rag_note_book.ipynb
 ```
 
 Click Run All.
+
 
 
 
