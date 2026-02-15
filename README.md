@@ -23,23 +23,23 @@ After installing Ollama, pull the model:
 
 ```bash
 ollama pull llama3
-Test it:
+```
 
-ollama run llama3
-If it responds, it is working.
-
-Option 1 — Run in Google Colab (Quick Preview)
+## Option 1 — Run in Google Colab (Quick Preview)
 Open:
 
+```bash
 https://colab.research.google.com/github/kavya-18/Take_home_rag-project/blob/main/rag_note_book.ipynb
 
-Click:
+```
 
-Run anyway
+# Click:
 
-Connect
+1. Run anyway
 
-Runtime → Run all
+2. Connect
+
+3. Runtime → Run all
 
 Note:
 Because this project uses a local LLaMA model, the final LLM generation step will not run in Colab.
@@ -54,28 +54,41 @@ Store in vector DB
 
 Retrieve relevant chunks
 
-Option 2 — Run Locally (Full Functionality)
+## Option 2 — Run Locally (Full Functionality)
 Open terminal inside the project folder.
 
-Step 1 — Create virtual environment
+# Step 1 — Create virtual environment
+```bash
 python -m venv venv
-Activate:
+```
+
+# Activate:
 
 Windows:
-
+```bash
 venv\Scripts\activate
-Mac/Linux:
+```
 
+Mac/Linux:
+```bash
 source venv/bin/activate
+```
+
+
 Step 2 — Install dependencies
+```bash
 pip install -r requirements.txt
-Step 3 — Make sure Ollama is running
-ollama run llama3
-Then exit.
+```
 
 Step 4 — Run the notebook
+```bash
 jupyter notebook
-Open:
+```
 
+Open:
+```bash
 rag_note_book.ipynb
+```
+
 Click Run All.
+
