@@ -13,10 +13,10 @@ This project demonstrates a minimal RAG pipeline using:
 
 Before running locally, install:
 
-### 1) Python (3.9+)
+#### 1) Python (3.9+)
 https://www.python.org/downloads/
 
-### 2) Ollama (for Local LLaMA)
+#### 2) Ollama (for Local LLaMA)
 https://ollama.com/download
 
 After installing Ollama, pull the model:
@@ -33,7 +33,7 @@ https://colab.research.google.com/github/kavya-18/Take_home_rag-project/blob/mai
 
 ```
 
-# Click:
+#### Click:
 
 1. Run anyway
 
@@ -41,10 +41,10 @@ https://colab.research.google.com/github/kavya-18/Take_home_rag-project/blob/mai
 
 3. Runtime → Run all
 
-Note:
+#### Note:
 Because this project uses a local LLaMA model, the final LLM generation step will not run in Colab.
 
-You can still:
+##### You can still:
 
 Load the document
 
@@ -57,7 +57,7 @@ Retrieve relevant chunks
 ## Option 2 — Run Locally (Full Functionality)
 Open terminal inside the project folder.
 
-# Step 1 — Create virtual environment
+#### Step 1 — Create virtual environment
 ```bash
 python -m venv venv
 ```
@@ -75,12 +75,12 @@ source venv/bin/activate
 ```
 
 
-Step 2 — Install dependencies
+#### Step 2 — Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-Step 4 — Run the notebook
+#### Step 3 — Run the notebook
 ```bash
 jupyter notebook
 ```
@@ -91,4 +91,5 @@ rag_note_book.ipynb
 ```
 
 Click Run All.
+
 
