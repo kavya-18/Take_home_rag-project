@@ -6,7 +6,8 @@ This project demonstrates a minimal RAG pipeline using:
 - Chroma vector database
 - Sentence-transformer embeddings
 - Modular ingestion, retrieval, and response
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0a29b8e5-05cc-4ba3-8a36-2462eafc488c" />
+  
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/982fed1c-aa10-43b2-8371-e19e2a215ff9" />
 
 ---
 
@@ -92,6 +93,7 @@ rag_note_book.ipynb
 ```
 
 Click Run All.
+
 
 
 
