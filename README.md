@@ -41,19 +41,19 @@ README.md
 
 #### This prototype can be extended to enterprise environments by:
 
-- Airflow-based ingestion orchestration
+-  Airflow-based ingestion orchestration
 
-- Incremental indexing
+-  Incremental indexing
 
-- Hybrid retrieval (BM25 + dense)
+-  ybrid retrieval (BM25 + dense)
 
-- Kubernetes deployment
+-  Kubernetes deployment
 
-- GPU scheduling (vLLM)
+-  GPU scheduling (vLLM)
 
-- Autoscaling inference services
+-  Autoscaling inference services
 
-- Retrieval quality measurement (Recall@K, MRR)
+-  Retrieval quality measurement (Recall@K, MRR)
 
 ---
 
@@ -155,6 +155,7 @@ Click Run All.
 - Generates a grounded response using LLaMA
 
 - The notebook demonstrates intermediate outputs for transparency.
+
 
 
 
