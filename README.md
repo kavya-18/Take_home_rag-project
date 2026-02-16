@@ -4,7 +4,7 @@
 
 This project implements a minimal Retrieval-Augmented Generation (RAG) pipeline designed to demonstrate how a prototype can evolve into an enterprise-ready architecture.
 
-The system combines:
+#### The system combines:
 
 Local LLaMA (via Ollama)
 
@@ -24,6 +24,7 @@ This implementation focuses not only on functionality, but also on scalability, 
 
 ---
 ## Repository Structure
+
 ```bash
 data/                       # Sample dataset
 01_ingestion.py             # Document loading + chunking + embedding
@@ -33,12 +34,12 @@ rag_note_book.ipynb         # End-to-end demo
 requirements.txt            # Dependencies
 Enterprise_RAG_Presentation.pdf
 README.md
-```bash
+```
 
 ---
 ## Enterprise Extension Path
 
-This prototype can be extended to enterprise environments by:
+#### This prototype can be extended to enterprise environments by:
 
 Airflow-based ingestion orchestration
 
@@ -143,7 +144,7 @@ Click Run All.
 
 ## Expected Output
 
-When running locally, the system:
+#### When running locally, the system:
 
 Loads and chunks documents
 
@@ -154,6 +155,7 @@ Retrieves top-K relevant chunks
 Generates a grounded response using LLaMA
 
 The notebook demonstrates intermediate outputs for transparency.
+
 
 
 
