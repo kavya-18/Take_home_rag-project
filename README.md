@@ -1,13 +1,58 @@
-# Take Home RAG Project
+# Enterprise-Ready RAG – Take Home Project
 
-This project demonstrates a minimal RAG pipeline using:
+## Overview
 
-- Local LLaMA (via Ollama)
-- Chroma vector database
-- Sentence-transformer embeddings
-- Modular ingestion, retrieval, and response
+This project implements a minimal Retrieval-Augmented Generation (RAG) pipeline designed to demonstrate how a prototype can evolve into an enterprise-ready architecture.
+
+The system combines:
+
+Local LLaMA (via Ollama)
+
+Sentence-Transformer embeddings
+
+Chroma vector database
+
+Modular ingestion, retrieval, and response components
+
+This implementation focuses not only on functionality, but also on scalability, modularity, and production alignment.
   
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/982fed1c-aa10-43b2-8371-e19e2a215ff9" />
+---
+## Architecture
+
+<img width="995" height="801" alt="image" src="https://github.com/user-attachments/assets/ea6d9e96-f234-4ce3-9aa4-e164eefb8dc7" />
+
+
+---
+## Repository Structure
+```bash
+data/                       # Sample dataset
+01_ingestion.py             # Document loading + chunking + embedding
+02_retrieval.py             # Similarity search + filtering
+03_response.py              # Prompt augmentation + LLM call
+rag_note_book.ipynb         # End-to-end demo
+requirements.txt            # Dependencies
+Enterprise_RAG_Presentation.pdf
+README.md
+```bash
+
+---
+## Enterprise Extension Path
+
+This prototype can be extended to enterprise environments by:
+
+Airflow-based ingestion orchestration
+
+Incremental indexing
+
+Hybrid retrieval (BM25 + dense)
+
+Kubernetes deployment
+
+GPU scheduling (vLLM)
+
+Autoscaling inference services
+
+Retrieval quality measurement (Recall@K, MRR)
 
 ---
 
@@ -93,6 +138,23 @@ rag_note_book.ipynb
 ```
 
 Click Run All.
+
+---
+
+## Expected Output
+
+When running locally, the system:
+
+Loads and chunks documents
+
+Stores embeddings in Chroma
+
+Retrieves top-K relevant chunks
+
+Generates a grounded response using LLaMA
+
+The notebook demonstrates intermediate outputs for transparency.
+
 
 
 
