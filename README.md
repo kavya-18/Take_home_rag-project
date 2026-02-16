@@ -6,13 +6,13 @@ This project implements a minimal Retrieval-Augmented Generation (RAG) pipeline 
 
 #### The system combines:
 
-Local LLaMA (via Ollama)
+1.  Local LLaMA (via Ollama)
 
-Sentence-Transformer embeddings
+2.  Sentence-Transformer embeddings
 
-Chroma vector database
+3.  Chroma vector database
 
-Modular ingestion, retrieval, and response components
+4.  Modular ingestion, retrieval, and response components
 
 This implementation focuses not only on functionality, but also on scalability, modularity, and production alignment.
   
@@ -41,19 +41,19 @@ README.md
 
 #### This prototype can be extended to enterprise environments by:
 
-Airflow-based ingestion orchestration
+1. Airflow-based ingestion orchestration
 
-Incremental indexing
+2. Incremental indexing
 
-Hybrid retrieval (BM25 + dense)
+3. Hybrid retrieval (BM25 + dense)
 
-Kubernetes deployment
+4. Kubernetes deployment
 
-GPU scheduling (vLLM)
+5. GPU scheduling (vLLM)
 
-Autoscaling inference services
+6. Autoscaling inference services
 
-Retrieval quality measurement (Recall@K, MRR)
+7. Retrieval quality measurement (Recall@K, MRR)
 
 ---
 
@@ -146,15 +146,16 @@ Click Run All.
 
 #### When running locally, the system:
 
-Loads and chunks documents
+- Loads and chunks documents
 
-Stores embeddings in Chroma
+- Stores embeddings in Chroma
 
-Retrieves top-K relevant chunks
+- Retrieves top-K relevant chunks
 
-Generates a grounded response using LLaMA
+- Generates a grounded response using LLaMA
 
-The notebook demonstrates intermediate outputs for transparency.
+- The notebook demonstrates intermediate outputs for transparency.
+
 
 
 
